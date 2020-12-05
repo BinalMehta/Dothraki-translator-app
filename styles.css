@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+html {
+    overflow: auto;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: inherit;
+    color: #333333;
+    background-image: url("images/got.jpg");
+    font-size: large;
+}
+
+textarea {
+    background-image: url("images/got.jpg");
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 80%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: x-large;
+    color: #F3F4F6;
+    font-family: 'Dancing Script', cursive;
+    padding: 20px;
+}
+
+
+
+
+
+
+h1 {
+    color: #D1FAE5;
+    margin: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+small {
+    color:  #D1FAE5;
+    text-align: center;
+    padding: 16px;
+    margin: 0;
+}
+
+div {
+    color: #D1FAE5;
+    padding: 15px;
+}
+
+#btn-translate {
+    display: inline-block;
+    background-image: url("images/got.jpg");
+    background: transparent;
+    outline: none;
+    width: 30%;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+    color: #D1FAE5;
+}
+
+#btn-translate:hover {
+    background-color: #1F2937;
+}
+
+#output {
+    display: inline-block;
+    max-height: 20vh;
+    min-height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 0rem;
+    font-size: x-large; 
+    font-family: 'Dancing Script', cursive;
+    color: #F3F4F6;
+}
+
+
+footer p {
+    color: #111827;
+    background-color: #9CA3AF;
+    padding: 1rem;
+    font-style: italic;
+    
+}
+
+::placeholder {
+    color: #9CA3AF;
+}
+
